@@ -86,6 +86,119 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  color: #343536;
+  font-size: 1em;
+  text-align: center;
+  background-color: e2e3ed;
+}
+
+.content-wrapper {
+  width: 85%;
+}
+
+header {
+  background-color: #117182;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+header, #work, #skills, #about, footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  margin-bottom: 60px;
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  font-size: .75rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li {
+  line-height: 1.5;
+  display: list-item;
+}
+
+a {
+  color: #dcb714;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+header h1 {
+  width: 100%;
+  margin: 0;
+  color: #d7d7d7;
+  font-size: 1.75rem;
+  line-height: 1.5;
+}
+
+header h2 {
+  width: 100%;
+  margin-top: 50px;
+  color: #d7d7d7;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: #343536;
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid #dcb714;
+  max-width: 25%;
+  max-height: 25%;
+}
+
+header h3 {
+  font-family: 'Caveat', cursive;
+  color: #d7d7d7;
+  margin-top: 25px;
+  font-size: 1rem;
+}
+
+main {
+  display: block;
+}
+
+#work, #skills {
+  width: 100%;
+  padding-top: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+#skills {
+  background-color: #f2d2ba;
+}
 
 /* ==========================================================================
    Helper classes
