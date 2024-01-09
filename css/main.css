@@ -86,20 +86,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Anek Kannada', sans-serif;
   color: #35343c;
   font-size: 1em;
   text-align: center;
-  background-color: #e2e3ed;
+  background-color: #eee1f2;
 }
 
 .content-wrapper {
   width: 85%;
 }
 
+/*c59bce*/
 header {
-  background-color: #c59bce;
+  background-color: #caa4d3;
   padding-top: 30px;
   padding-bottom: 60px;
 }
@@ -113,7 +119,9 @@ header, #work, #skills, #about, footer {
 
 nav {
   margin-bottom: 60px;
+  padding: 20px 20px 0px 20px;
   display: block;
+  background-color: #783287;
 }
 
 nav #contact-link {
@@ -191,7 +199,7 @@ main {
 }
 
 #work {
-  margin-top: 0;
+  margin-top: 85px;
 }
 
 #work h3, #skills h3 {
@@ -287,7 +295,7 @@ span {
 
 #skills .content-wrapper {
   width: 100%;
-  height: 500px;
+  height: auto;
   position: relative;
   padding: 5vh 0;
   user-select: none;
@@ -304,44 +312,14 @@ span {
   margin: 10vh 0 0 0;
   min-height: 300px;
   padding: 25px 0;
-  overflow: hidden;
 }
 
-.under-cardbox {
-  animation: move 25s linear 2s infinite alternate;
+.in-cardbox {
   display: flex;
-  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-content: space-around;
 }
-/*
-.cardbox::before {
-  left: 0;
-  background: #e2e3ed;
-}
-
-.cardbox::after {
-  right: 0;
-  background: #e2e3ed;
-}
-
-.cardbox::before, .cardbox::after {
-  content: '';
-  width: 10%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  filter: blur(40px);
-}
-
-@keyframes move {
-0% {
-    transform: translateX(0);
-}
-100% {
-    transform: translateX(calc(-2800px + 100%));
-}
-}
-*/
 
 .card {
   height: 100%;
@@ -372,7 +350,7 @@ span {
 }
 
 footer {
-  background-color: #c08ecb;
+  background-color: #c59bce;
   padding: 80px 0;
 }
 
@@ -405,6 +383,7 @@ h5 {
 
 footer a {
   font-size: 1.5rem;
+  text-shadow: none;
 }
 
 footer .follow-info {
