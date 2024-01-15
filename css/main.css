@@ -104,7 +104,6 @@ body {
   width: 85%;
 }
 
-/*caa4d3  eee1f2*/
 header {
   background-color: #d4b5db;
   padding-top: 30px;
@@ -349,12 +348,14 @@ span {
 }
 
 footer {
-  background-color: #b47ec2;
+  background-color: #783287;
   padding: 80px 0;
 }
 
 #contact h3 {
   margin-bottom: 60px;
+  color: #fef6ff;
+  font-size: 2.25rem;
 }
 
 footer .contact-wrapper {
@@ -378,16 +379,18 @@ h5 {
   line-height: 1.5;
   width: 100%;
   font-size: 1.5rem;
+  color: #fef6ff;
+  text-transform: uppercase;
 }
 
 footer a {
   display: flex;
-  font-weight: bold;
   justify-content: center;
 }
 
 .contact-info a {
   font-size: 1.25rem;
+  color: #ffffff;
 }
 
 footer .follow-info {
@@ -411,6 +414,13 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 4rem;
+}
+
+footer p {
+  color: #fef6ff;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  text-transform: uppercase;
+  margin-top: 80px;
 }
 
 footer ul {
@@ -504,6 +514,12 @@ footer ul {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 480px) {
+  header nav {
+    text-transform: uppercase;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
 
@@ -522,7 +538,6 @@ footer ul {
     display: flex;
     justify-content: center;
     width: 100%;
-    text-transform: uppercase;
   }
 
   nav {
@@ -671,7 +686,7 @@ footer ul {
   }
 
   footer p {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .contact-info a {
@@ -697,6 +712,14 @@ footer ul {
 
   .contact-info a {
     font-size: 1.5rem;
+  }
+
+  #contact h3 {
+    font-size: 3rem;
+  }
+
+  #contact h5 {
+    text-transform: uppercase;
   }
 }
 
@@ -799,11 +822,8 @@ footer ul {
   footer .social-icons li i {
     font-size: 65px;
   }
-
-  footer p {
-    font-size: 1.5rem;
-  }
 }
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
