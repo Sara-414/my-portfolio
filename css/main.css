@@ -128,7 +128,7 @@ nav {
 }
 /*bb88c7*/
 nav #contact-link {
-  background-color: #783287;
+  background-color: #7f368f;
   padding: 10px;
   border-radius: 30px;
   /*filter: drop-shadow(1px 1px 1px #736c77);*/
@@ -350,7 +350,7 @@ span {
 }
 
 footer {
-  background-color: #d0afd8;
+  background-color: #caa6d3;
   padding: 80px 0;
 }
 
@@ -383,7 +383,6 @@ h5 {
 
 footer a {
   display: flex;
-
   font-weight: bold;
   justify-content: center;
 }
